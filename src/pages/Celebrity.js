@@ -72,8 +72,9 @@ export const Celebrity = () => {
 
     return (
         <div>
-
-            <Navbar />
+            <div className='flex justify-center'>
+                <Navbar></Navbar>
+            </div>
             <div className='bg-gray-300 rounded-xl mt-24 relative'>
                 <video
                     className='w-full h-full object-fill'

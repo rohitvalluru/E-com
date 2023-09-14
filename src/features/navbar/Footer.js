@@ -21,7 +21,7 @@ const foot = [
 
     {
         id: 4,
-        name: "CONTACT US"
+        name: "CONTACT ME"
     },
     {
         id: 5,
@@ -57,10 +57,9 @@ const social = [{
 {
     id: 5,
     icon: BsWhatsapp,
-    way: ""
+    way: "/productdetail/1/2"
 },
 ]
-
 
 export const Footer = () => {
     const filtered2Options = foot.filter((options) => (options.id > 3));

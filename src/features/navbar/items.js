@@ -70,7 +70,7 @@ export const items = [
         id: 1,
         brand: "chanel",
         brandimg: chanel,
-        branddesc: '"The perfect wardrobe of a cosmpolite woman, the collection imagined by Virgine Viard is a true record of the multiple sides of the young Pop Star JENNIE raised between two capitals: Seoul, New Zealand."',
+        branddesc: '"The perfect wardrobe of a cosmopolite woman, the collection imagined by Virgine Viard is a true record of the multiple sides of the young Pop Star JENNIE raised between two capitals: Seoul, New Zealand."',
         details: [
             {
                 id: 9,

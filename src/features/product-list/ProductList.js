@@ -1,10 +1,5 @@
 import React, { useState, Fragment } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import {
-  increment,
-  incrementAsync,
-  selectCount,
-} from './productListSlice';
 import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { BsHandbagFill } from "react-icons/bs";
@@ -29,7 +24,6 @@ function classNames(...classes) {
 export default function ProductList() {
   const { brandname } = useParams();
   const navigate = useNavigate();
-  // const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
   const brandStoreImages = {
@@ -49,9 +43,10 @@ export default function ProductList() {
 
   return (
     <div className="bg-fixed bg-center" style={backgroundStyle}>
-      <Navbar></Navbar>
+      <div className='flex justify-center'>
+        <Navbar></Navbar>
+      </div>
       <div>
-
         {/* Product grid */}
         <div className="lg:col-span-3">
           <div className="bg-transparent">

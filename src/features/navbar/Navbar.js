@@ -105,7 +105,7 @@ const Navbar = () => {
                                             <div className="relative inline-flex items-center">
                                                 <ShoppingBagIcon className="h-6 w-6 text-white" aria-hidden="true" />
                                                 <span className="absolute bottom-3 left-0 inline-flex items-center rounded-full ml-4 px-1.5 py-0.5 text-xs font-medium bg-yellow-400 text-black ring-1 ring-inset ring-yellow-600/20">
-                                                    3
+                                                    1
                                                 </span>
                                             </div>
                                         </button>

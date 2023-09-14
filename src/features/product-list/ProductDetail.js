@@ -33,12 +33,16 @@ export const ProductDetail = () => {
 
     return (
         <>
-            <Navbar></Navbar>
+            <div className='flex justify-center'>
+                <Navbar></Navbar>
+            </div>
             <div className="lg:col-span-3 bg-black">
                 <div className="bg-transparent">
                     <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
                         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            <IoIosArrowRoundBack className='text-white mt-20 text-5xl' onClick={() => navigate(-1)}></IoIosArrowRoundBack>
+                            <button>
+                                <IoIosArrowRoundBack className='text-white mt-20 text-5xl' onClick={() => navigate(-1)}></IoIosArrowRoundBack>
+                            </button>
                             <h1 className='font-extrabold text-white text-xl font-inter'>{items[id - 1].details[indx].product.toUpperCase()}</h1>
                             <h2 className='font-bold text-white text-xl font-inter'>US {items[id - 1].details[indx].price}</h2>
                             <img src={items[id - 1].details[indx].img} className='mt- rounded-3xl' />

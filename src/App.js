@@ -12,7 +12,6 @@ import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import { Checkout } from './pages/Checkout';
 import { Celebrity } from './pages/Celebrity';
-import { Test } from './features/product-list/test';
 import ProductList from './features/product-list/ProductList';
 import { ProductDetail } from './features/product-list/ProductDetail';
 import { Protected } from './features/auth/components/Protected';
